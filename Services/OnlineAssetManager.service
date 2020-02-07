@@ -1,0 +1,5 @@
+{
+	"DestinationName": "DEST_SAM40_ONLINE_PPROP",
+	"OfflineEnabled": false,
+	"ServiceUrl": "/destinations/mobileservices"
+}
