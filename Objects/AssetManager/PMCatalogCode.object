@@ -4,19 +4,29 @@
 	],
 	"Properties": [
 		{
+			"Key": true,
+			"_Name": "Code",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "CodeGroup",
+			"_Type": "Edm.String"
+		},
+		{
 			"Key": false,
 			"_Name": "DateChanged",
-			"_Type": "Edm.String"
+			"_Type": "Edm.DateTime"
 		},
 		{
 			"Key": false,
 			"_Name": "DateCreated",
-			"_Type": "Edm.String"
+			"_Type": "Edm.DateTime"
 		},
 		{
 			"Key": false,
 			"_Name": "ValidFromDate",
-			"_Type": "Edm.String"
+			"_Type": "Edm.DateTime"
 		},
 		{
 			"Key": false,
@@ -46,16 +56,6 @@
 		{
 			"Key": true,
 			"_Name": "Catalog",
-			"_Type": "Edm.String"
-		},
-		{
-			"Key": true,
-			"_Name": "Code",
-			"_Type": "Edm.String"
-		},
-		{
-			"Key": true,
-			"_Name": "CodeGroup",
 			"_Type": "Edm.String"
 		}
 	],

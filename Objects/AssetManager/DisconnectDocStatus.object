@@ -1,0 +1,26 @@
+{
+	"Collection": [
+		"DisconnectDocStatuses"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "DisconnectDoc_Nav",
+			"_Type": "Collection(DisconnectionDocument)"
+		}
+	],
+	"Properties": [
+		{
+			"Key": false,
+			"_Name": "Description",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "Status",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"_Name": "DisconnectDocStatus"
+}

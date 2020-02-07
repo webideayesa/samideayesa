@@ -6,10 +6,15 @@
 		{
 			"Key": false,
 			"_Name": "WOHistory",
-			"_Type": "WorkOrderHistories"
+			"_Type": "WorkOrderHistory"
 		}
 	],
 	"Properties": [
+		{
+			"Key": false,
+			"_Name": "TextString",
+			"_Type": "Edm.String"
+		},
 		{
 			"Key": true,
 			"_Name": "OrderId",
@@ -28,11 +33,6 @@
 		{
 			"Key": false,
 			"_Name": "TextObjectType",
-			"_Type": "Edm.String"
-		},
-		{
-			"Key": false,
-			"_Name": "TextString",
 			"_Type": "Edm.String"
 		}
 	],

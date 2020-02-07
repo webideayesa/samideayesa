@@ -1,0 +1,41 @@
+{
+	"Collection": [
+		"DeviceGoodsMovements"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "Device_Nav",
+			"_Type": "Device"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "EquipmentNum",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MovementType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Plant",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "StorageLocation",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CostCenter",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"_Name": "DeviceGoodsMovement"
+}

@@ -1,0 +1,36 @@
+{
+	"Collection": [
+		"Divisions"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "Installations_Nav",
+			"_Type": "Collection(Installation)"
+		},
+		{
+			"Key": false,
+			"_Name": "Plants_NAV",
+			"_Type": "Collection(Plant)"
+		},
+		{
+			"Key": false,
+			"_Name": "RegisterGroups_Nav",
+			"_Type": "Collection(RegisterGroup)"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "Division",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Description",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"_Name": "Division"
+}

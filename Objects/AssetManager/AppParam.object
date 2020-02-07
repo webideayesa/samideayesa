@@ -4,9 +4,9 @@
 	],
 	"Properties": [
 		{
-			"Key": true,
-			"_Name": "RecordNo",
-			"_Type": "Edm.String"
+			"Key": false,
+			"_Name": "FlagNoChange",
+			"_Type": "Edm.Boolean"
 		},
 		{
 			"Key": false,
@@ -25,11 +25,6 @@
 		},
 		{
 			"Key": false,
-			"_Name": "FlagNoChange",
-			"_Type": "Edm.Boolean"
-		},
-		{
-			"Key": false,
 			"_Name": "ParamComment",
 			"_Type": "Edm.String"
 		},
@@ -41,6 +36,11 @@
 		{
 			"Key": false,
 			"_Name": "ParamType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "RecordNo",
 			"_Type": "Edm.String"
 		}
 	],

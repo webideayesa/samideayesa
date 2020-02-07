@@ -4,6 +4,11 @@
 	],
 	"Properties": [
 		{
+			"Key": false,
+			"_Name": "ConfirmationIndicator",
+			"_Type": "Edm.String"
+		},
+		{
 			"Key": true,
 			"_Name": "ControlKey",
 			"_Type": "Edm.String"

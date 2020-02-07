@@ -2,6 +2,13 @@
 	"Collection": [
 		"VarianceReasons"
 	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "Confirmations",
+			"_Type": "Collection(Confirmation)"
+		}
+	],
 	"Properties": [
 		{
 			"Key": true,

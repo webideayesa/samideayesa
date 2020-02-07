@@ -1,0 +1,51 @@
+{
+	"Collection": [
+		"FunctionalLocationBOMs"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "BOMHeader_Nav",
+			"_Type": "BOMHeader"
+		},
+		{
+			"Key": false,
+			"_Name": "FuncLoc_Nav",
+			"_Type": "MyFunctionalLocation"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "AlternativeBOM",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "BOMCategory",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "BOMId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "BOMUsage",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "FuncLocIdIntern",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "Plant",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"_Name": "FunctionalLocationBOM"
+}

@@ -2,6 +2,18 @@
 	"Collection": [
 		"Plants"
 	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "Division_Nav",
+			"_Type": "Division"
+		},
+		{
+			"Key": false,
+			"_Name": "StorageLocations_Nav",
+			"_Type": "Collection(StorageLocation)"
+		}
+	],
 	"Properties": [
 		{
 			"Key": true,

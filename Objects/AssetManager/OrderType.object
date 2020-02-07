@@ -2,7 +2,19 @@
 	"Collection": [
 		"OrderTypes"
 	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "OrderTypePartner_Nav",
+			"_Type": "OrderTypePartner"
+		}
+	],
 	"Properties": [
+		{
+			"Key": false,
+			"_Name": "ObjectListAssignment",
+			"_Type": "Edm.String"
+		},
 		{
 			"Key": true,
 			"_Name": "OrderType",
@@ -31,11 +43,6 @@
 		{
 			"Key": false,
 			"_Name": "ValauationArea",
-			"_Type": "Edm.String"
-		},
-		{
-			"Key": false,
-			"_Name": "PlantName",
 			"_Type": "Edm.String"
 		},
 		{

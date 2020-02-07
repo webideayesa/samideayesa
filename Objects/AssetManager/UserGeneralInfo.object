@@ -4,6 +4,16 @@
 	],
 	"Properties": [
 		{
+			"Key": false,
+			"_Name": "CPMSUserName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CPMSRegistrationID",
+			"_Type": "Edm.String"
+		},
+		{
 			"Key": true,
 			"_Name": "UserGuid",
 			"_Type": "Edm.String"

@@ -32,6 +32,11 @@
 			"Key": false,
 			"_Name": "CostCenterDescription",
 			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IsOvertime",
+			"_Type": "Edm.String"
 		}
 	],
 	"Service": "/SAPAssetManager/Services/AssetManager.service",

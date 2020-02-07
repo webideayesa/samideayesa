@@ -1,0 +1,36 @@
+{
+	"Collection": [
+		"MeterReadingReasons"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "MeterReading_Nav",
+			"_Type": "Collection(MeterReading)"
+		}
+	],
+	"Properties": [
+		{
+			"Key": false,
+			"_Name": "TechInstallationFlag",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "MeterReadingReason",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "UploadFlag",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Description",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"_Name": "MeterReadingReason"
+}

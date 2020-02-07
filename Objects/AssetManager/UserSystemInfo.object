@@ -9,11 +9,6 @@
 			"_Type": "Edm.String"
 		},
 		{
-			"Key": true,
-			"_Name": "RecordId",
-			"_Type": "Edm.Int64"
-		},
-		{
 			"Key": false,
 			"_Name": "SystemSettingGroup",
 			"_Type": "Edm.String"
@@ -27,6 +22,11 @@
 			"Key": false,
 			"_Name": "SystemSettingValue",
 			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "RecordId",
+			"_Type": "Edm.Int64"
 		}
 	],
 	"Service": "/SAPAssetManager/Services/AssetManager.service",

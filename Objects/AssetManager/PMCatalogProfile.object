@@ -5,6 +5,11 @@
 	"Properties": [
 		{
 			"Key": false,
+			"_Name": "CatalogProfileDesc",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
 			"_Name": "NotifCategory",
 			"_Type": "Edm.String"
 		},
@@ -24,11 +29,6 @@
 			"_Type": "Edm.String"
 		},
 		{
-			"Key": false,
-			"_Name": "Description",
-			"_Type": "Edm.String"
-		},
-		{
 			"Key": true,
 			"_Name": "Catalog",
 			"_Type": "Edm.String"
@@ -45,7 +45,7 @@
 		},
 		{
 			"Key": false,
-			"_Name": "CatalogProfileDesc",
+			"_Name": "Description",
 			"_Type": "Edm.String"
 		}
 	],

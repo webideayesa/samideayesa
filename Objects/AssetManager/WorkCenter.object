@@ -2,10 +2,32 @@
 	"Collection": [
 		"WorkCenters"
 	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "MyEquipments_Main_Nav",
+			"_Type": "Collection(MyEquipment)"
+		},
+		{
+			"Key": false,
+			"_Name": "MyEquipments_Nav",
+			"_Type": "Collection(MyEquipment)"
+		},
+		{
+			"Key": false,
+			"_Name": "MyFunctionalLocations_Main_Nav",
+			"_Type": "Collection(MyFunctionalLocation)"
+		},
+		{
+			"Key": false,
+			"_Name": "MyFunctionalLocations_Nav",
+			"_Type": "Collection(MyFunctionalLocation)"
+		}
+	],
 	"Properties": [
 		{
 			"Key": true,
-			"_Name": "PlantId",
+			"_Name": "ObjectType",
 			"_Type": "Edm.String"
 		},
 		{
@@ -26,6 +48,16 @@
 		{
 			"Key": false,
 			"_Name": "WorkCenterDescr",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PlantId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CostCenter",
 			"_Type": "Edm.String"
 		}
 	],

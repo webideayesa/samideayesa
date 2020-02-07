@@ -2,6 +2,28 @@
 	"Collection": [
 		"Priorities"
 	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "NotificationHeaders",
+			"_Type": "Collection(MyNotificationHeader)"
+		},
+		{
+			"Key": false,
+			"_Name": "NotificationHistories_Nav",
+			"_Type": "Collection(NotificationHistory)"
+		},
+		{
+			"Key": false,
+			"_Name": "WorkOrderHeaders",
+			"_Type": "Collection(MyWorkOrderHeader)"
+		},
+		{
+			"Key": false,
+			"_Name": "WorkOrderHistories",
+			"_Type": "Collection(WorkOrderHistory)"
+		}
+	],
 	"Properties": [
 		{
 			"Key": true,

@@ -4,13 +4,13 @@
 	],
 	"Properties": [
 		{
-			"Key": true,
-			"_Name": "BusinessArea",
+			"Key": false,
+			"_Name": "BusinessAreaDesc",
 			"_Type": "Edm.String"
 		},
 		{
-			"Key": false,
-			"_Name": "BusinessAreaDesc",
+			"Key": true,
+			"_Name": "BusinessArea",
 			"_Type": "Edm.String"
 		}
 	],

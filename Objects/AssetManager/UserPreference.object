@@ -5,17 +5,7 @@
 	"Properties": [
 		{
 			"Key": false,
-			"_Name": "PreferenceGroup",
-			"_Type": "Edm.String"
-		},
-		{
-			"Key": false,
-			"_Name": "PreferenceName",
-			"_Type": "Edm.String"
-		},
-		{
-			"Key": true,
-			"_Name": "UserGuid",
+			"_Name": "PreferenceValue",
 			"_Type": "Edm.String"
 		},
 		{
@@ -24,8 +14,18 @@
 			"_Type": "Edm.String"
 		},
 		{
+			"Key": true,
+			"_Name": "UserGuid",
+			"_Type": "Edm.String"
+		},
+		{
 			"Key": false,
-			"_Name": "PreferenceValue",
+			"_Name": "PreferenceName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PreferenceGroup",
 			"_Type": "Edm.String"
 		}
 	],

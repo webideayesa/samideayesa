@@ -1,0 +1,31 @@
+{
+	"Collection": [
+		"MeterReaderNotes"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "ConnObjectMRNotes_Nav",
+			"_Type": "Collection(ConnectionObjectMRNote)"
+		},
+		{
+			"Key": false,
+			"_Name": "DevLocMRNotes_Nav",
+			"_Type": "Collection(DeviceLocationMRNote)"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "NoteID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "NoteText",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"_Name": "MeterReaderNote"
+}

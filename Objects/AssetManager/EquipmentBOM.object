@@ -1,0 +1,51 @@
+{
+	"Collection": [
+		"EquipmentBOMs"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "BOMHeader_Nav",
+			"_Type": "BOMHeader"
+		},
+		{
+			"Key": false,
+			"_Name": "Equipment_Nav",
+			"_Type": "MyEquipment"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "BOMCategory",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "EquipId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "Plant",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "BOMUsage",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "BOMId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "AlternativeBOM",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"_Name": "EquipmentBOM"
+}

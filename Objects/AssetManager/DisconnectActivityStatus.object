@@ -1,0 +1,31 @@
+{
+	"Collection": [
+		"DisconnectActivityStatuses"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "DisconnectActivity_Nav",
+			"_Type": "Collection(DisconnectionActivity)"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "Status",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Description",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ReconnectFlag",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"_Name": "DisconnectActivityStatus"
+}

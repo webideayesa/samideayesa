@@ -2,6 +2,13 @@
 	"Collection": [
 		"NotificationTypes"
 	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "PartnerDetProc_Nav",
+			"_Type": "Collection(NotifPartnerDetProc)"
+		}
+	],
 	"Properties": [
 		{
 			"Key": true,

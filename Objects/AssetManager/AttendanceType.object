@@ -4,8 +4,18 @@
 	],
 	"Properties": [
 		{
-			"Key": false,
+			"Key": true,
 			"_Name": "PersonnelSubarea",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MaxDuration",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MinDuration",
 			"_Type": "Edm.String"
 		},
 		{
@@ -26,6 +36,11 @@
 		{
 			"Key": false,
 			"_Name": "AttendanceTypeText",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IsNonWorking",
 			"_Type": "Edm.String"
 		}
 	],

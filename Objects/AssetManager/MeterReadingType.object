@@ -1,0 +1,29 @@
+{
+	"Collection": [
+		"MeterReadingTypes"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "MeterReadingType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Description",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MeterReadingCategory",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "NoResetMRT",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"_Name": "MeterReadingType"
+}

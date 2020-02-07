@@ -1,0 +1,41 @@
+{
+	"Collection": [
+		"MatDocItemSerialNums"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "MatDocItem_Nav",
+			"_Type": "MaterialDocItem"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "MatDocItem",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "MaterialDocNumber",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "MaterialDocYear",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "SerialNum",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "UniversalItemId",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"_Name": "MatDocItemSerialNum"
+}

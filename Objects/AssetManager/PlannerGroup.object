@@ -9,6 +9,11 @@
 			"_Type": "Edm.String"
 		},
 		{
+			"Key": false,
+			"_Name": "OrderType",
+			"_Type": "Edm.String"
+		},
+		{
 			"Key": true,
 			"_Name": "PlannerGroup",
 			"_Type": "Edm.String"
@@ -16,11 +21,6 @@
 		{
 			"Key": false,
 			"_Name": "PlannerGroupName",
-			"_Type": "Edm.String"
-		},
-		{
-			"Key": false,
-			"_Name": "OrderType",
 			"_Type": "Edm.String"
 		}
 	],

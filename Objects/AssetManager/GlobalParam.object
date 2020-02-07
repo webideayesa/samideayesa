@@ -10,11 +10,6 @@
 		},
 		{
 			"Key": false,
-			"_Name": "FlagNoChange",
-			"_Type": "Edm.Boolean"
-		},
-		{
-			"Key": false,
 			"_Name": "ParamComment",
 			"_Type": "Edm.String"
 		},
@@ -42,6 +37,11 @@
 			"Key": false,
 			"_Name": "ParameterName",
 			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FlagNoChange",
+			"_Type": "Edm.Boolean"
 		}
 	],
 	"Service": "/SAPAssetManager/Services/AssetManager.service",

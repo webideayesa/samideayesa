@@ -19,7 +19,7 @@
 			"_Type": "Edm.String"
 		},
 		{
-			"Key": false,
+			"Key": true,
 			"_Name": "ParentParemeterGroup",
 			"_Type": "Edm.String"
 		}

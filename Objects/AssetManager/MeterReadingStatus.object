@@ -1,0 +1,26 @@
+{
+	"Collection": [
+		"MeterReadingStatuses"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "MeterReadings_Nav",
+			"_Type": "Collection(MeterReading)"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "MeterReadingStatus",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Text",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"_Name": "MeterReadingStatus"
+}
